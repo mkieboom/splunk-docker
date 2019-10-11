@@ -44,4 +44,4 @@ RUN sudo chmod +x /install.sh && \
 # Add the launch script
 ADD scripts/launch.sh /launch.sh
 RUN sudo chmod +x /launch.sh
-#CMD sudo -E /launch.sh
+CMD sudo -E /launch.sh
